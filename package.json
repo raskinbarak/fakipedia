@@ -1,0 +1,38 @@
+{
+  "name": "fakipedia",
+  "homepage": "https://raskinbarak.github.io/fakipedia/",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "bootstrap": "5.3.3",
+    "gh-pages": "^6.3.0",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "7.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "@types/react-bootstrap": "^0.32.37",
+    "@types/react-dom": "19.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "5.7.2",
+    "vite": "^6.2.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "vite start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
